@@ -13,7 +13,6 @@
 migrate_working_dir/
 .fvm/
 .fvmrc
-.env
 
 # IntelliJ related
 *.iml
@@ -46,6 +45,3 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
-
-# README
-README.md
