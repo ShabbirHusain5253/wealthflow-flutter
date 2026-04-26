@@ -50,7 +50,7 @@ class _PasswordInputPageState extends State<PasswordInputPage> {
             context.go(AppRoutes.registerEmail);
           }
         } else if (state.status == AuthStatus.authenticated) {
-          context.go(AppRoutes.dashboard);
+          context.go(AppRoutes.onboarding);
         }
       },
       child: Scaffold(
